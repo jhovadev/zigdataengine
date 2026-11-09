@@ -1,0 +1,41 @@
+# Zig build artifacts / package cache
+.zig-cache/
+zig-out/
+zig-pkg/
+
+# Native build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python developer tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Locally generated benchmark measurements and data
+# Commit curated evidence in docs/results/ rather than the repository root.
+/*.csv
+/*.meta.json
+/input.txt
+/output.txt
+/results/
+
+# Local editor / OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment / backup files
+.env
+.env.*
+*.orig
+*.rej

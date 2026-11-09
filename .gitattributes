@@ -1,0 +1,9 @@
+# Consistent line endings across GitHub, Linux, macOS, and Windows
+*.zig text eol=lf
+*.zon text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.sh text eol=lf

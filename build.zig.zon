@@ -1,0 +1,19 @@
+.{
+    .name = .zig_data_engine,
+    .version = "0.1.0",
+    // Intentionally omitted: `zig build` will generate a project fingerprint.
+    .minimum_zig_version = "0.17.1",
+    .fingerprint = 0x4ab55737fd489995,
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "examples",
+        "bench",
+        "docs",
+        "README.md",
+        "LICENSE",
+        ".gitignore",
+    },
+}
